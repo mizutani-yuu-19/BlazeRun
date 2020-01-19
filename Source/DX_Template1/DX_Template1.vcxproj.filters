@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\ギミック">
+      <UniqueIdentifier>{72463e98-9fc8-4a66-8d41-024cf4342ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\プレイヤー">
+      <UniqueIdentifier>{436c31a4-919c-41a0-a337-b2b87dbbcf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{6b9eb427-e0eb-4cb4-a450-824fda13216e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="physics.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBConvert.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="burn.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fireworks.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamite.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="grass.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="lamp.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="blaze.h">
+      <Filter>ソース ファイル\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="oil.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="clear.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="stageselect.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="ground.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="goal.h">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="physics.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBConvert.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="burn.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fireworks.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamite.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="grass.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="lamp.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="blaze.cpp">
+      <Filter>ソース ファイル\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="oil.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="scroll.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="stageselect.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="ground.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="goal.cpp">
+      <Filter>ソース ファイル\ギミック</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
